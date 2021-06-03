@@ -1,0 +1,27 @@
+Imports System
+				
+Public Module Module1
+	Public Sub Main()
+		dim a as integer = 10
+		dim b as integer = 11
+		
+		if  a=b then
+			
+			console.WriteLine(" equal")
+			
+		elseif not a=b then
+			console.WriteLine(" not equal")
+		elseif a>b then 
+			
+			console.WriteLine("A is greater")
+			
+		elseif a<b then 
+			
+			console.WriteLine("B is greater")
+			
+		else
+			console.WriteLine("non of the above")
+		end if
+	End Sub
+	
+End Module
