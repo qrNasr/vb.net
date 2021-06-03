@@ -1,0 +1,11 @@
+Imports System
+				
+Public Module Module1
+	Public Sub Main()
+		dim X as Boolean = not true
+		dim Y as Boolean = False
+		
+		if X = y then 
+			console.WriteLine("False")
+		end if
+	End Sub
