@@ -1,0 +1,18 @@
+Imports System
+				
+Public Module Module1
+	Public Sub Main()
+		dim A as integer =12
+		dim B as integer = 13
+		dim D as integer = 20
+		Dim E as Byte = 30
+		
+		if (A>E) or (B>E) or (D>E) then
+			console.WriteLine("Bingo")
+		else
+			
+			console.WriteLine("sorry")
+			
+		end if
+	End Sub
+End Module
